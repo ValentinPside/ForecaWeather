@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         // Создали репозиторий и вызвали нужный метод
         val forecaRepository = ForecaRepository()
-        forecaRepository.authenticate()
+        forecaRepository.getCurrentWeather()
     }
 }
